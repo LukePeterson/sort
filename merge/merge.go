@@ -1,7 +1,8 @@
 package merge
 
-// mergeSort is the main function that implements the merge sort algorithm.
-// It recursively splits the array into halves, sorts each half, and merges them back together.
+// mergeSort sorts an array using the merge sort algorithm.
+//
+// Divides the array into halves, sorts each half, and merges them back together.  Stable and efficient for large arrays. However, it requires O(n) additional space, making it less memory efficient.
 func mergeSort(input []int) []int {
 	if len(input) <= 1 {
 		return input

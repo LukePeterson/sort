@@ -1,5 +1,8 @@
 package quick
 
+// quickSort sorts an array using the quick sort algorithm
+//
+// Picks an element as a pivot and partitions the array around the pivot, placing smaller elements before it and larger elements after it, then sorts the partitions recursively.  Highly efficient with good average-case performance, not stable, and works well in practice despite O(n^2) worst-case scenario.
 func quickSort(input []int) []int {
 	return quickSortHelper(input, 0, len(input)-1)
 }

@@ -2,6 +2,8 @@ package bubble
 
 // bubbleSort sorts an array of ints using the bubble sort algorithm
 //
+// Repeatedly compares adjacent elements and swaps them if they are in the wrong order.  Simple to understand and implement, but inefficient for large data sets.
+//
 // Best Case: O(n) - only one pass is needed if the array is already sorted.  Our 'swapped' variable will tell us whether this is the case.
 // Avg Case: O(n^2) - two nested loops are used to traverse the array.
 // Worst Case: O(n^2) — when the array is sorted in reverse.

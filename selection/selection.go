@@ -1,7 +1,9 @@
 package selection
 
 // selectionSort sorts an array of ints using the selection sort algorithm
-
+//
+// Finds the smallest (or largest) element in the array and moves it to the start, then repeats for the remainder of the list.  Unstable and performs poorly compared to other sorts, but easy to implement.
+//
 // Best Case: O(n^2) — regardless of initial order of elements.
 // Average Case: O(n^2)
 // Worst Case: O(n^2)

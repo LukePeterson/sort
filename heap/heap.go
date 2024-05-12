@@ -1,6 +1,8 @@
 package heap
 
 // heapSort sorts an array using the heap sort algorithm
+//
+// Converts the array into a heap structure, and then repeatedly removes the largest element from the heap and adds it to the end of the sorted array.  Not stable but has good performance for large data sets. More complex to implement than simple sorts like bubble and insertion.
 func heapSort(input []int) []int {
 	n := len(input)
 
